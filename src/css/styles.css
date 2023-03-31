@@ -33,9 +33,10 @@ li{
   max-width: 320px;
   margin-top: 20px;
   margin-bottom: 16px;
-  border-radius: 10px;
-  box-shadow: 50px;
-  box-shadow: 0 8px 6px -6px #000;
+  border-radius: 100px;
+  border: none;
+  box-shadow: 0 8px 6px -6px rgb(43, 41, 41);
+  text-align: center;
 }
 
 .wrapper {
