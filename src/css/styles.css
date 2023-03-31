@@ -3,18 +3,71 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+  font-family: eUkraine,Arial, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
-}
+  /* background: linear-gradient(
+    100deg,
+    #d8e5e5,
+    #ffffff,
+    #c9d6ff,
+    #ffffff
+  );
+  height: 100vh;
+  background-size: 400% 400% !important;
+  animation: gradient 15s ease infinite; */
+  background: linear-gradient(217deg, rgba(255,0,0,0.8), rgba(255,0,0,0) 50.71%),linear-gradient(127deg, rgba(91, 172, 91, 0.8), rgba(0,255,0,0) 70.71%),linear-gradient(336deg, rgba(0,0,255,0.8), rgba(0,0,255,0) 70.71%);
+    background-size: 150vw 150vh;
+    animation: 15s linear 0s infinite alternate none running;
+  }
 
+li{
+  list-style: none;
+}
 #search-box {
   font: inherit;
-  padding: 8px;
+  padding: 10px;
   max-width: 320px;
+  margin-top: 20px;
   margin-bottom: 16px;
+  border-radius: 10px;
+  box-shadow: 50px;
+  box-shadow: 0 8px 6px -6px #000;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.country-info {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.country-info__title{
+  text-align: center;
+}
+.country-info__img {
+  border-radius: 8px;
+}
+
+
+.countries_list{
+  padding: 20px 20px;
+  padding-left: 400px;
+align-items: center;
+display: flex;
+}
+
+.list_image{
+   border-radius: 8px
 }
